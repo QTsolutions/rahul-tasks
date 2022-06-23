@@ -27,8 +27,7 @@ public class YamlWrite {
 		//using dump method to dump the input file to writer location
 		yaml.dump(inputfile, writer);
 		
-		//Returning the data with system.out.println command
-		System.out.println(inputfile);
+		//file has been written in write.yaml file
 		
 	}
 
