@@ -1,3 +1,6 @@
 YamlOperations.java
 bin/
 target/
+.settings
+.project
+.classpath
