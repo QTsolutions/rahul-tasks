@@ -21,7 +21,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator;
 import com.fasterxml.jackson.dataformat.yaml.YAMLParser;
 
-
+// Modular approach to update read write operation in yaml file
 public class YamlOperations2 {
 	
 	static File newfile2=new File(System.getProperty("user.dir") + File.separator+"Writeyamlfile.yml");
@@ -54,7 +54,7 @@ public class YamlOperations2 {
 	public static void writeChildName(String key, String value) throws IOException {
 		yamlgenerator.writeStartArray();
 		yamlgenerator.writeStartObject();
-		writeData(key, value);
+		writeData(key, value);  
 		
 	}
 	
