@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>yamlReadAndWriteOperation</name>
+=======
+	<name>yamlOperation</name>
+>>>>>>> 0f6fd55 (update files for yaml operations)
 	<comment></comment>
 	<projects>
 	</projects>
