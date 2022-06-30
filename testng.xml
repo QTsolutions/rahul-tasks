@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5"  parallel="tests">
+	<test name="chromeTest">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="seleniumSampleTests.GoogleSearch" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="fireFoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="seleniumSampleTests.GoogleSearch" />
+		</classes>
+	</test>
+	<test name="edgeTest">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="seleniumSampleTests.GoogleSearch" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
